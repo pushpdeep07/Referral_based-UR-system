@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="decoration one"></div>
+    <div class="decoration two"></div>
+    <div class="decoration three"></div>
+    <div class="decoration four"></div>
+
+    <div class="container">
+        <div class="glow one"></div>
+        <div class="glow two"></div>
+        <div class="decoration-box"></div>
+        <div class="decoration-box-two"></div>
+
+
+        <h2>Dashboard</h2>
+        <p>Welcome, <span id="userName"></span></p>
+        <p>Your Referral Code: <span id="userReferralCode"></span></p>
+        <p>Referral Link: <span id="referralLink"></span></p>
+        
+        <h3>Your Direct Referrals</h3>
+        <ul id="referralsList"></ul>
+
+        <h3>Referral Tree</h3>
+        <div id="referralTree"></div>
+
+        <button id="logoutButton">Logout</button>
+
+    </div>
+    <script src ="dashboard.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>  <!-- ✅ Load D3.js -->
+    <script src="referralTree.js"></script>
+</body>
+</html>

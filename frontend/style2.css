@@ -1,0 +1,159 @@
+/* 🌆 Background Image */
+body {
+    background: linear-gradient(to right, #4b874e, #2b86e1); /* Gradient for better effect */
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* 📌 Background Image on Left */
+/* .background-left {
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    width: 250px;
+    height: 200px; 
+    background-image: url("../image2.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-50%);
+    opacity: 0.9;
+    border-radius: 10px;
+} */
+
+ .background2-left {
+    position: absolute;
+    top: 75%;
+    left: 20px;
+    width: 300px;  /* Adjust width */
+    height: 100px; /* Adjust height */
+    background-image: url("../login.jpg");  /* ✅ Your local image */
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-50%);
+    opacity: 0.9;  /* Transparency */
+    border-radius: 10px;
+}
+
+/* 📌 Background Image on Right */
+.background-right {
+    position: absolute;
+    top: 15%;
+    right: 30px;
+    width: 250px;  /* Adjust width */
+    height: 350px; /* Adjust height */
+    background-image: url("../image.webp");  /* ✅ Your local image */
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-50%);
+    opacity: 0.9;  /* Transparency */
+    border-radius: 10px;
+}
+
+/* .background2-right {
+    position: absolute;
+    top: 78%;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("../login2.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-50%);
+    opacity: 0.9; 
+    border-radius: 10px;
+} */
+
+/* 📦 Keep container unchanged */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 25px;
+    background: #f8f9fd;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    border: 4px solid #003d82;
+    position: relative;
+}
+
+/* 📩 Contact Details (Fixed at the Bottom) */
+.contact-details {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 15px;
+    background: rgba(234, 129, 129, 0.778);
+    border-radius: 8px;
+    color: rgb(17, 15, 15);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border: black;
+    border-width: 20px;
+}
+
+
+/* 🏷 Stylish Headings */
+h2 {
+    color: #007bff;
+    text-transform: uppercase;
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+}
+
+/* 📌 Input Box Styling */
+.input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f1f1f1;
+    padding: 8px 15px;
+}
+
+.input-box i {
+    font-size: 18px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    background: none;
+}
+
+/* 🎨 Stylish Buttons */
+button {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #0056b3, #003d82);
+    transform: scale(1.05);
+}
+
+/* ✨ Add Icons */
+button i {
+    margin-right: 8px;
+}

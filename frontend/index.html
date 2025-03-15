@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Background Image -->
+    <div class="background-left"></div>
+    <div class="background2-left"></div>
+    <div class="background-right"></div>
+    <div class="background2-right"></div>
+
+    <div class="container">
+        <h2><i class="fas fa-user-plus"></i> User Registration</h2>
+        <form id="registrationForm">
+            <div class="input-box"><i class="fas fa-user"></i><input type="text" id="name" placeholder="Full Name" required></div>
+            <div class="input-box"><i class="fas fa-user"></i><input type="text" id="father_name" placeholder="Father's Name"></div>
+            <div class="input-box"><i class="fas fa-map-marker-alt"></i><input type="text" id="address" placeholder="Address"></div>
+            <div class="input-box"><i class="fas fa-phone"></i><input type="tel" id="mobile_number" placeholder="Mobile Number" required></div>
+            <div class="input-box"><i class="fab fa-whatsapp"></i><input type="tel" id="whatsapp_number" placeholder="WhatsApp Number"></div>
+            <div class="input-box"><i class="fas fa-envelope"></i><input type="email" id="email" placeholder="Email" required></div>
+            <div class="input-box"><i class="fas fa-lock"></i><input type="password" id="password" placeholder="Password" required></div>
+            <div class="input-box"><i class="fas fa-gift"></i><input type="text" id="referral_code" placeholder="Referral Code (optional)"></div>
+            <button type="submit"><i class="fas fa-user-check"></i> Register</button>
+        </form>
+
+        <!-- ✅ Success Message Box (Initially Hidden) -->
+        <div id="successMessage" style="display: none; color: green; font-weight: bold; margin-top: 10px;">
+            ✅ Registration successful!<span id="userReferralCode"></span>
+        </div>
+
+        <h2><i class="fas fa-sign-in-alt"></i> Login</h2>
+        <form id="loginForm">
+            <div class="input-box"><i class="fas fa-envelope"></i><input type="email" id="loginEmail" placeholder="Email" required></div>
+            <div class="input-box"><i class="fas fa-lock"></i><input type="password" id="loginPassword" placeholder="Password" required></div>
+            <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+        </form>
+    </div>
+
+    <!-- Contact Details (Placed at the bottom without changing the container size) -->
+    <div class="contact-details">
+        Developed by <b>Pushpdeep Teotia</b> <br>
+        Student at <b>IIT Kanpur</b> <br>
+        Email: <b>pushpdeept07@gmail.com</b> <br>
+        Contact No: <b>8826330237</b>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
