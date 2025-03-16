@@ -28,7 +28,7 @@ body {
     left: 20px;
     width: 300px;  /* Adjust width */
     height: 100px; /* Adjust height */
-    background-image: url("../login.jpg");  /* ✅ Your local image */
+    background-image: url("login.jpg");  /* ✅ Your local image */
     background-size: cover;
     background-position: center;
     transform: translateY(-50%);
@@ -43,7 +43,7 @@ body {
     right: 30px;
     width: 250px;  /* Adjust width */
     height: 350px; /* Adjust height */
-    background-image: url("../image.webp");  /* ✅ Your local image */
+    background-image: url("image.webp");  /* ✅ Your local image */
     background-size: cover;
     background-position: center;
     transform: translateY(-50%);
