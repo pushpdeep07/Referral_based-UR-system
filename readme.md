@@ -147,6 +147,66 @@ https://referral-based-ur-system-git-master-pushpdeeps-projects.vercel.app/
 
 ✅ Prevented unauthorized access using middleware-based validation.
 
+
+## API & Database Testing Screenshots  
+
+### 1. API Testing using Postman  
+Below are the screenshots of API testing performed using **Postman**:  
+
+#### 1.1 Registering a New User  
+![Image](https://github.com/user-attachments/assets/46bbdb57-ffbc-4507-8998-3dcbaccc7057)
+
+#### 1.2 User Login API Test  
+![Image](https://github.com/user-attachments/assets/18e4bda7-da1f-4546-b927-389782950a51)
+
+#### 1.3 Fetching User Dashboard via API  
+![Image](https://github.com/user-attachments/assets/e654eb4e-38e3-459c-9657-cd11562e346a)
+
+---
+
+### 2. Database Verification in XAMPP  
+Screenshots of the **MySQL database** in **phpMyAdmin** after registering users:  
+
+#### 2.1 Users Table in Database  
+![Image](https://github.com/user-attachments/assets/96b65d34-21cb-45ee-8e1d-53c72052b1e4)
+
+#### 2.2 User Successfully Added in Database  
+![Image](https://github.com/user-attachments/assets/28f94008-6c05-4c7e-b47e-5ea2430022fc) 
+
+---
+
+## Frontend Testing Screenshots  
+
+### 3. Web Application UI Testing  
+
+#### 3.1 Homepage of the Web Application  
+![Image](https://github.com/user-attachments/assets/92d7c029-26b8-487f-b028-f3ec8bec8405)
+
+![Image](https://github.com/user-attachments/assets/6f39985c-75fe-4c23-b318-9336178e0742)
+
+#### 3.2 User Login Page  
+![Image](https://github.com/user-attachments/assets/3ef9e91b-a03b-4740-b787-99399d96244b)
+
+#### 3.3 User Dashboard  
+![Image](https://github.com/user-attachments/assets/b9bb397c-0179-4ef1-b2b9-48297e5b14bc)
+
+#### 3.4 User Referral Tree Visualization  
+![Image](https://github.com/user-attachments/assets/cfd168dc-7aae-477c-8135-a6c1b0b536da)
+
+![Image](https://github.com/user-attachments/assets/85915679-1d45-4e34-8773-6448d4e496ce)
+
+---
+
+### 4. Browser Console Debugging  
+
+#### 4.1 Console Logs After User Login  
+![Image](https://github.com/user-attachments/assets/9272c920-ed2b-445e-874a-162d2aca2d19)
+
+![Image](https://github.com/user-attachments/assets/c4d147fc-a5f6-4381-a355-d6bc2f769d18)
+
+![Image](https://github.com/user-attachments/assets/8b299653-f8b0-4091-8892-a4717d2bbffe)
+
+
 ## Future Improvements
 ✅ Deploy backend on Vercel or AWS for full functionality.
 
