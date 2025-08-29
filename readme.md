@@ -8,7 +8,7 @@
 
 This project is a Referral-Based User Registration System that allows users to sign up, log in, and refer others using a hierarchical structure. The system efficiently tracks referrals and visualizes the referral tree using D3.js. It includes user authentication, referral tracking, and secure API endpoints.
 
-✅ Due to the time constraints, only the frontend has been deployed, while the backend has been tested using Postman and XAMPP Control Panel.
+✅ Due to time constraints, only the frontend has been deployed, while the backend has been tested using Postman and XAMPP Control Panel.
 ## Features
 
 #### - User Management & Authentication
